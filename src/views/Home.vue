@@ -2,7 +2,7 @@
   <div class="home">
     <div class="top">Origin</div>
     <div class="banner">
-      <img src="~assets/img/home/top.jpg" alt="">
+      <img src="~assets/img/home/top.png" alt="">
     </div>
     <div class="mainbody">
       <div class="plane">
