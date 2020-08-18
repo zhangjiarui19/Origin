@@ -31,7 +31,7 @@
 <style scoped>
   #tabbar{
     width: 100%;
-    background: url("~assets/img/home/backgroundimg.jpg");
+    /*background: url("~assets/img/home/backgroundimg.jpg");*/
     height: 200px;
   }
   .main{
