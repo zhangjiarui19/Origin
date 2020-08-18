@@ -11,29 +11,29 @@
       <div class="tabbar">
         <div class="left">
           <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-            <li>11</li>
-            <li>12</li>
-            <li>13</li>
-            <li>14</li>
-            <li>15</li>
-            <li>16</li>
-            <li>17</li>
-            <li>18</li>
-            <li>19</li>
-            <li>20</li>
-            <li>21</li>
-            <li>22</li>
-            <li>23</li>
+            <li class="title">前寒武纪</li>
+            <li>无生物时代</li>
+            <li>太古代</li>
+            <li>元古代</li>
+            <li><img src="~assets/img/home/fish.jpg" alt=""></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="title">中生带</li>
+            <li>三叠纪</li>
+            <li>侏罗纪</li>
+            <li>白垩纪早期</li>
+            <li>白垩纪晚期</li>
+            <li><img src="~assets/img/home/elephant.jpg" alt=""></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
         </div>
         <div class="center">
@@ -65,29 +65,29 @@
         </div>
         <div class="right">
           <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-            <li>6</li>
-            <li>7</li>
-            <li>8</li>
-            <li>9</li>
-            <li>10</li>
-            <li>11</li>
-            <li>12</li>
-            <li>13</li>
-            <li>14</li>
-            <li>15</li>
-            <li>16</li>
-            <li>17</li>
-            <li>18</li>
-            <li>19</li>
-            <li>20</li>
-            <li>21</li>
-            <li>22</li>
-            <li>23</li>
+            <li><img src="~assets/img/home/sunrise.jpg" alt=""></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="title">古生代</li>
+            <li>寒武纪</li>
+            <li>奥陶纪</li>
+            <li>志留纪</li>
+            <li>泥盆纪</li>
+            <li>石炭纪</li>
+            <li>二叠纪</li>
+            <li><img src="~assets/img/home/dinosaur.png" alt=""></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="title">新生代</li>
+            <li>始新世</li>
+            <li>渐新世</li>
+            <li>中新世</li>
+            <li>上新世</li>
+            <li>更新世</li>
+            <li>全新世</li>
           </ul>
         </div>
       </div>
@@ -129,8 +129,9 @@ export default {
   }
   .mainbody{
     position: relative;
-    height: 200px;
+    height: 1200px;
     padding-top: 50px;
+    color: var(--color-text);
   }
   .plane{
     position: absolute;
@@ -140,18 +141,18 @@ export default {
   .mainbody .tabbar{
     margin: 0 auto;
     width: 80%;
-    height: 200px;
+    /*height: 200px;*/
     /*background-color: #ff5777;*/
   }
   .tabbar .left{
     float: left;
     /*background-color: yellow;*/
     width: 48%;
-    height: 200px;
+    /*height: 200px;*/
   }
   .tabbar .center{
     width: 4%;
-    height: 200px;
+    /*height: 200px;*/
     float: left;
   }
   .tabbar .line{
@@ -161,7 +162,7 @@ export default {
   .tabbar .right{
     float: left;
     /*background-color: blue;*/
-    height: 200px;
+    /*height: 200px;*/
     width: 48%;
   }
   .line div{
@@ -193,5 +194,13 @@ export default {
     font-size: 20px;
     height: 37px;
     /*line-height: 37px;*/
+  }
+  .mainbody img{
+    height: 150px;
+    width: 300px;
+  }
+  .title{
+    font-weight: bolder;
+    font-size: 30px;
   }
 </style>
