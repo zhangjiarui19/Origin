@@ -22,7 +22,7 @@
             <li></li>
             <li></li>
             <li></li>
-            <li class="title">中生带</li>
+            <li class="title">中生代</li>
             <li>三叠纪</li>
             <li>侏罗纪</li>
             <li>白垩纪早期</li>
@@ -130,8 +130,9 @@ export default {
   .mainbody{
     position: relative;
     height: 1200px;
-    padding-top: 50px;
+    padding-top: 100px;
     color: var(--color-text);
+    font-family: "方正小标宋体简体";
   }
   .plane{
     position: absolute;
@@ -156,8 +157,9 @@ export default {
     float: left;
   }
   .tabbar .line{
-    width: 10px;
-    background-color: #cccccc;
+    width: 30px;
+    /*background-color: #cccccc;*/
+    background: url("~assets/img/home/line.png") repeat-y 10px;
   }
   .tabbar .right{
     float: left;
@@ -166,12 +168,12 @@ export default {
     width: 48%;
   }
   .line div{
-    height: 12px;
-    width: 12px;
+    height: 22px;
+    width: 22px;
     background-color: var(--color-text);
     /*margin-bottom: 15px;*/
-    margin: 0 auto 25px;
-    border-radius: 5px;
+    margin: 0 auto 35px;
+    border-radius: 15px;
   }
 
   .left ul{
@@ -180,8 +182,8 @@ export default {
   }
   .left li{
     color: var(--color-text);
-    font-size: 20px;
-    height: 37px;
+    font-size: 30px;
+    height: 57px;
     /*line-height: 37px;*/
   }
 
@@ -191,16 +193,16 @@ export default {
   }
   .right li{
     color: var(--color-text);
-    font-size: 20px;
-    height: 37px;
+    font-size: 30px;
+    height: 57px;
     /*line-height: 37px;*/
   }
   .mainbody img{
-    height: 150px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
   }
   .title{
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 45px;
   }
 </style>

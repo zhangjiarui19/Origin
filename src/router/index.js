@@ -5,16 +5,25 @@ Vue.use(VueRouter)
 const Home = () => import('views/Home')
 const Second = () => import('views/Second')
 
-  const routes = [
+const routes = [
   {
     path: '/',
     // name: 'Home',
     component: Home
   },
   {
+    path: '/home',
+    component: Home
+  },
+  {
     path: '/second',
     component: Second
+  },
+  {
+    path: '/third',
+    component: () => import('views/Third')
   }
+
 ]
 
 const router = new VueRouter({
