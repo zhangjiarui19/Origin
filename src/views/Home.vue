@@ -102,6 +102,11 @@
 export default {
   name: 'Home',
   components: {
+  },
+  data(){
+    return {
+      
+    }
   }
 }
 </script>
@@ -131,8 +136,7 @@ export default {
     position: relative;
     height: 1200px;
     padding-top: 100px;
-    color: var(--color-text);
-    font-family: "方正小标宋体简体";
+    /*font-family: "方正行楷简体";*/
   }
   .plane{
     position: absolute;
@@ -149,6 +153,8 @@ export default {
     float: left;
     /*background-color: yellow;*/
     width: 48%;
+    color: var(--color-text);
+    font-family: "方正小标宋简体";
     /*height: 200px;*/
   }
   .tabbar .center{
@@ -160,9 +166,12 @@ export default {
     width: 30px;
     /*background-color: #cccccc;*/
     background: url("~assets/img/home/line.png") repeat-y 10px;
+    margin-left: 30px;
   }
   .tabbar .right{
     float: left;
+    color: var(--color-text);
+    font-family: "方正小标宋简体";
     /*background-color: blue;*/
     /*height: 200px;*/
     width: 48%;
@@ -184,9 +193,10 @@ export default {
     color: var(--color-text);
     font-size: 30px;
     height: 57px;
+    letter-spacing: 5px;
     /*line-height: 37px;*/
+    /*text-indent: 30px;*/
   }
-
   .right ul{
     list-style: none;
     text-align: left;
@@ -196,6 +206,8 @@ export default {
     font-size: 30px;
     height: 57px;
     /*line-height: 37px;*/
+    letter-spacing: 5px;
+    text-indent: 30px;
   }
   .mainbody img{
     height: 250px;
@@ -203,6 +215,8 @@ export default {
   }
   .title{
     font-weight: bolder;
-    font-size: 45px;
+    color: yellow;
+    font-size: 55px;
+    letter-spacing: 10px;
   }
 </style>
