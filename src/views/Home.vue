@@ -65,10 +65,10 @@
         </div>
         <div class="right">
           <ul>
-            <li><img src="~assets/img/home/sunrise.jpg" alt=""></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li @click="liClick(1)"><img src="~assets/img/home/sunrise.jpg" alt=""></li>
+            <li @click="liClick(2)"></li>
+            <li @click="liClick(2)"></li>
+            <li @click="liClick(2)"></li>
             <li class="title">古生代</li>
             <li>寒武纪</li>
             <li>奥陶纪</li>
@@ -99,13 +99,25 @@
 <script>
 // @ is an alias to /src
 
+import router from "../router";
+
 export default {
   name: 'Home',
   components: {
   },
   data(){
     return {
-      
+      count: 0,
+      color: 'blue',
+      isActive: false,
+    }
+  },
+  methods: {
+    liClick(num){
+      if (num){
+        this.router = router.replace(' gushengdai')
+      }
+
     }
   }
 }
