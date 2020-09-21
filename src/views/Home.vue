@@ -65,32 +65,32 @@
         </div>
         <div class="right">
           <ul>
-            <li @click="liClick(1)"><img src="~assets/img/home/sunrise.jpg" alt=""></li>
-            <li @click="liClick(2)"></li>
-            <li @click="liClick(2)"></li>
-            <li @click="liClick(2)"></li>
-            <li class="title">古生代</li>
-            <li>寒武纪</li>
-            <li>奥陶纪</li>
-            <li>志留纪</li>
-            <li>泥盆纪</li>
-            <li>石炭纪</li>
-            <li>二叠纪</li>
-            <li><img src="~assets/img/home/dinosaur.png" alt=""></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li class="title">新生代</li>
-            <li>始新世</li>
-            <li>渐新世</li>
-            <li>中新世</li>
-            <li>上新世</li>
-            <li>更新世</li>
-            <li>全新世</li>
-          </ul>
-        </div>
-      </div>
+            <li><img src="~assets/img/home/sunrise.jpg" alt=""></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li class="title">古生代</li>
+      <li>寒武纪</li>
+      <li>奥陶纪</li>
+      <li>志留纪</li>
+      <li>泥盆纪</li>
+      <li>石炭纪</li>
+      <li>二叠纪</li>
+      <li><img src="~assets/img/home/dinosaur.png" alt=""></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li class="title">新生代</li>
+      <li>始新世</li>
+      <li>渐新世</li>
+      <li>中新世</li>
+      <li>上新世</li>
+      <li>更新世</li>
+      <li>全新世</li>
+    </ul>
+  </div>
+</div>
     </div>
     <div class="footer"></div>
   </div>
@@ -105,21 +105,6 @@ export default {
   name: 'Home',
   components: {
   },
-  data(){
-    return {
-      count: 0,
-      color: 'blue',
-      isActive: false,
-    }
-  },
-  methods: {
-    liClick(num){
-      if (num){
-        this.router = router.replace(' gushengdai')
-      }
-
-    }
-  }
 }
 </script>
 

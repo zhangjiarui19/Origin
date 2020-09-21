@@ -67,16 +67,17 @@
     top: -5px;
   }
   .second{
-    left: 300px;
+    /*left: 300px;*/
+    left: 22%;
     top: -5px;
   }
   .third{
     top: -5px;
-    left: 900px;
+    left: 60%;
   }
   .fourth{
     top: -5px;
-    left: 1240px;
+    left: 83%
   }
   .text{
     color: var(--color-text);
@@ -96,10 +97,10 @@
   }
   .text ul li:nth-child(2){
     /*width: 570px;*/
-    width: 52%;
+    width: 42%;
   }
   .text ul li:nth-child(3){
     /*width: 430px;*/
-    width: 23%;
+    width: 25%;
   }
 </style>
