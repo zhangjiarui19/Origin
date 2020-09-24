@@ -81,13 +81,13 @@
       <li></li>
       <li></li>
       <li></li>
-      <li class="title" @click="$router.push('')">新生代</li>
-      <li @click="$router.push('')">始新世</li>
-      <li @click="$router.push('')">渐新世</li>
-      <li @click="$router.push('')">中新世</li>
-      <li @click="$router.push('')">上新世</li>
-      <li @click="$router.push('')">更新世</li>
-      <li @click="$router.push('')">全新世</li>
+      <li class="title" @click="$router.push('cenozoic')">新生代</li>
+      <li @click="$router.push('eocene')">始新世</li>
+      <li @click="$router.push('oligocene')">渐新世</li>
+      <li @click="$router.push('miocene')">中新世</li>
+      <li @click="$router.push('pliocene')">上新世</li>
+      <li @click="$router.push('pleistocene')">更新世</li>
+      <li @click="$router.push('holocene')">全新世</li>
     </ul>
   </div>
 </div>
