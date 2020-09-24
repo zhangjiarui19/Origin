@@ -8,6 +8,7 @@
 <script>
   import Tabbar from "../components/Tabbar";
   import Part3 from "../components/Part3";
+
   export default {
     name: "Third",
     components: {Part3, Tabbar}
@@ -15,7 +16,8 @@
 </script>
 
 <style scoped>
-  .third{
+  .third {
     background: url("~assets/img/home/backgroundimg.jpg");
   }
 </style>
+<!--  浮动定位   -->

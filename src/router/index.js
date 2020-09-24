@@ -8,7 +8,6 @@ const Second = () => import('views/Second')
 const routes = [
   {
     path: '/',
-    // name: 'Home',
     component: Home
   },
   {
@@ -23,6 +22,9 @@ const routes = [
     path: '/third',
     component: () => import('views/Third')
   },
+  // {},
+  // {},
+  // {},
 ]
 
 const router = new VueRouter({
