@@ -1,7 +1,8 @@
 <template>
   <div class="third">
     <tabbar></tabbar>
-    <part3></part3>
+    <part3>
+    </part3>
   </div>
 </template>
 
@@ -18,6 +19,8 @@
 <style scoped>
   .third {
     background: url("~assets/img/home/backgroundimg.jpg");
+    width: 100%;
+    height: 100%;
   }
 </style>
 <!--  浮动定位   -->

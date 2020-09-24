@@ -5,16 +5,16 @@
       <img src="~assets/img/home/top.png" alt="">
     </div>
     <div class="mainbody">
-      <div class="plane">
-        <img src="~assets/img/home/plane.png" alt="">
-      </div>
+<!--      <div class="plane">-->
+<!--        <img src="~assets/img/home/plane.png" alt="">-->
+<!--      </div>-->
       <div class="tabbar">
         <div class="left">
           <ul>
-            <li class="title">前寒武纪</li>
-            <li>无生物时代</li>
-            <li>太古代</li>
-            <li>元古代</li>
+            <li class="title" @click="$router.push('/precambrian')">前寒武纪</li>
+            <li @click="$router.push('nolivingthing')">无生物时代</li>
+            <li @click="$router.push('archaeozoic')">太古代</li>
+            <li @click="$router.push('proterozoic')">元古代</li>
             <li><img src="~assets/img/home/fish.jpg" alt=""></li>
             <li></li>
             <li></li>
@@ -22,11 +22,11 @@
             <li></li>
             <li></li>
             <li></li>
-            <li class="title">中生代</li>
-            <li>三叠纪</li>
-            <li>侏罗纪</li>
-            <li>白垩纪早期</li>
-            <li>白垩纪晚期</li>
+            <li class="title" @click="$router.push('mesozoic')">中生代</li>
+            <li @click="$router.push('triassic')">三叠纪</li>
+            <li @click="$router.push('jurassic')">侏罗纪</li>
+            <li @click="$router.push('cretaceous')">白垩纪早期</li>
+            <li @click="$router.push('cretaceous')">白垩纪晚期</li>
             <li><img src="~assets/img/home/elephant.jpg" alt=""></li>
             <li></li>
             <li></li>
@@ -69,25 +69,25 @@
       <li></li>
       <li></li>
       <li></li>
-      <li class="title">古生代</li>
-      <li>寒武纪</li>
-      <li>奥陶纪</li>
-      <li>志留纪</li>
-      <li>泥盆纪</li>
-      <li>石炭纪</li>
-      <li>二叠纪</li>
+      <li class="title" @click="$router.push('paleozoic')">古生代</li>
+      <li @click="$router.push('cambrian')">寒武纪</li>
+      <li @click="$router.push('ordovician')">奥陶纪</li>
+      <li @click="$router.push('silurian')">志留纪</li>
+      <li @click="$router.push('devonian')">泥盆纪</li>
+      <li @click="$router.push('carboniferous')">石炭纪</li>
+      <li @click="$router.push('permian')">二叠纪</li>
       <li><img src="~assets/img/home/dinosaur.png" alt=""></li>
       <li></li>
       <li></li>
       <li></li>
       <li></li>
-      <li class="title">新生代</li>
-      <li>始新世</li>
-      <li>渐新世</li>
-      <li>中新世</li>
-      <li>上新世</li>
-      <li>更新世</li>
-      <li>全新世</li>
+      <li class="title" @click="$router.push('')">新生代</li>
+      <li @click="$router.push('')">始新世</li>
+      <li @click="$router.push('')">渐新世</li>
+      <li @click="$router.push('')">中新世</li>
+      <li @click="$router.push('')">上新世</li>
+      <li @click="$router.push('')">更新世</li>
+      <li @click="$router.push('')">全新世</li>
     </ul>
   </div>
 </div>
@@ -146,6 +146,12 @@ export default {
     /*height: 200px;*/
     /*background-color: #ff5777;*/
   }
+  .title{
+    font-weight: bolder;
+    color: red;
+    font-size: 55px;
+    letter-spacing: 10px;
+  }
   .tabbar .left{
     float: left;
     /*background-color: yellow;*/
@@ -165,6 +171,7 @@ export default {
     background: url("~assets/img/home/line.png") repeat-y 10px;
     margin-left: 30px;
   }
+
   .tabbar .right{
     float: left;
     color: var(--color-text);
@@ -181,7 +188,6 @@ export default {
     margin: 0 auto 35px;
     border-radius: 15px;
   }
-
   .left ul{
     list-style: none;
     text-align: right;
@@ -210,10 +216,5 @@ export default {
     height: 250px;
     width: 400px;
   }
-  .title{
-    font-weight: bolder;
-    color: yellow;
-    font-size: 55px;
-    letter-spacing: 10px;
-  }
+
 </style>

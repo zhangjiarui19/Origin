@@ -10,11 +10,14 @@
         <div><slot name="img"></slot></div>
       </div>
     </div>
-    <div class="tabbar">
-      <div></div>
+    <div class="tab1">
+        <ul class="tbul">
+          <li>1123</li>
+          <li>2123</li>
+          <li>312321</li>
+        </ul>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -35,21 +38,42 @@
   }
   .left{
     font-size: 30px;
-    color: white;
+    background-color: white;
     float: left;
     width: 30%;
-    height: 399px;
+    /*height: 500px;*/
     /*background-color: #cccccc;*/
   }
   .left div{
-    height: 100px;
+    height: 150px;
     padding-top: 40px;
     text-indent: 200px;
+    background-color: #7DCDFF;
   }
   .right{
     float: right;
     width: 69%;
-    height: 300px;
-    /*background-color: #ff5777;*/
+    height: 100%;
+    background-color: #ff5777;
+  }
+  .tab1{
+    width: 100%;
+    height: 50px;
+    background-color: #cccccc;
+    position: sticky;
+    top: 0px;
+
+  }
+  .tab1 .tbul{
+    display: flex;
+    list-style: none;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .tbul li{
+    flex: 1;
+    line-height: 30px;
+    background-color: #7DCDFF;
   }
 </style>
