@@ -4,17 +4,17 @@
       <div class="plane"><img src="~assets/img/home/plane.png" alt=""></div>
       <div class="content">
         <div class="line">
-          <div class="first"></div>
-          <div class="second"></div>
-          <div class="third"></div>
-          <div class="fourth"></div>
+          <div class="first" @click="$router.push('/precambrian')"></div>
+          <div class="second" @click="$router.push('/paleozoic')"></div>
+          <div class="third" @click="$router.push('/mesozoic')"></div>
+          <div class="fourth" @click="$router.push('/cenozoic')"></div>
         </div>
         <div class="text">
           <ul>
-            <li>前寒武纪</li>
-            <li>古生代</li>
-            <li>中生代</li>
-            <li>新生代</li>
+            <li @click="$router.push('/precambrian')">前寒武纪</li>
+            <li @click="$router.push('/paleozoic')">古生代</li>
+            <li @click="$router.push('/mesozoic')">中生代</li>
+            <li @click="$router.push('/cenozoic')">新生代</li>
           </ul>
         </div>
       </div>
@@ -44,7 +44,7 @@
   }
   .content{
     float: left;
-    width: 80%;
+    width: 90%;
     margin: 50px auto;
     padding-left: 50px;
   }

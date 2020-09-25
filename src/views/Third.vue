@@ -2,7 +2,17 @@
   <div class="third">
     <tabbar></tabbar>
     <part3>
+      <ul slot="left">
+        <li>12</li>
+        <li>12</li>
+        <li>12</li>
+      </ul>
+      <img src="~assets/img/home/fish.jpg" alt="" slot="img">
     </part3>
+    <div class="content">
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
   </div>
 </template>
 

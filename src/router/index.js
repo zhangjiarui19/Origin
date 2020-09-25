@@ -3,7 +3,6 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
 const Home = () => import('views/Home')
-const Second = () => import('views/Second')
 
 const routes = [
   {
@@ -13,10 +12,6 @@ const routes = [
   {
     path: '/home',
     component: Home
-  },
-  {
-    path: '/second',
-    component: Second
   },
   {
     path: '/third',

@@ -1,35 +1,6 @@
 <template>
   <div class="main">
-    <table class="table">
-      <tr>
-        <td>
-          <div>
-            <slot name="tl"></slot>
-            <div class="message"><slot></slot></div>
-          </div>
-        </td>
-        <td>
-          <div>
-            <slot name="tr"></slot>
-            <div class="message"><slot></slot></div>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <div>
-            <slot name="bl"></slot>
-            <div class="message"><slot></slot></div>
-          </div>
-        </td>
-        <td>
-          <div>
-            <slot name="br"></slot>
-            <div class="message"><slot></slot></div>
-          </div>
-        </td>
-      </tr>
-    </table>
+
   </div>
 </template>
 
