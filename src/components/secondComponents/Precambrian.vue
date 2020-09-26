@@ -6,16 +6,16 @@
     </div>
     <div class="box">
       <div><div>
-        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/nolivingthing')">
-        <div class="t1">sad</div>
+        <img src="~assets/img/photo/noliving.jpg" alt="" @click="$router.push('/nolivingthing')">
+        <div class="t1">无生物时代</div>
       </div></div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/archaeozoic')">
-        <div class="t1">sad</div>
+        <img src="~assets/img/photo/archaeozoic.gif" alt="" @click="$router.push('/archaeozoic')">
+        <div class="t1">太古代</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/proterozoic')">
-        <div class="t1">sad</div>
+        <img src="~assets/img/photo/proterozoic.jpg" alt="" @click="$router.push('/proterozoic')">
+        <div class="t1">元古代</div>
       </div>
     </div>
   </div>
