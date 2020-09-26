@@ -18,6 +18,10 @@ const routes = [
     component: () => import('views/Third')
   },
   {
+    path: '/third1',
+    component: () => import('components/thirdComponents/ThirdOne')
+  },
+  {
     path: '/precambrian',
     component: () => import('components/secondComponents/Precambrian')
   },

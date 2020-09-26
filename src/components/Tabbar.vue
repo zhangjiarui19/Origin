@@ -4,17 +4,17 @@
       <div class="plane"><img src="~assets/img/home/plane.png" alt=""></div>
       <div class="content">
         <div class="line">
-          <div class="first" :class="{}" @click="$router.push('/precambrian')"></div>
-          <div class="second" @click="$router.push('/paleozoic')"></div>
-          <div class="third" @click="$router.push('/mesozoic')"></div>
-          <div class="fourth" @click="$router.push('/cenozoic')"></div>
+          <div class="first" :class="{}" @click="firstClick"></div>
+          <div class="second" @click="secondClick"></div>
+          <div class="third" @click="thirdClick"></div>
+          <div class="fourth" @click="fourthClick"></div>
         </div>
         <div class="text">
           <ul>
-            <li @click="$router.push('/precambrian')">前寒武纪</li>
-            <li @click="$router.push('/paleozoic')">古生代</li>
-            <li @click="$router.push('/mesozoic')">中生代</li>
-            <li @click="$router.push('/cenozoic')">新生代</li>
+            <li @click="firstClick">前寒武纪</li>
+            <li @click="secondClick">古生代</li>
+            <li @click="thirdClick">中生代</li>
+            <li @click="fourthClick">新生代</li>
           </ul>
         </div>
       </div>
@@ -26,7 +26,21 @@
   export default {
     name: "Tabbar",
     methods: {
-
+      firstClick(){
+        this.$router.push('/precambrian')
+        console.log(this.$router.path);
+        //this.$route.path.indexOf(this.path) !== -1
+        console.log(this.path.indexOf('paleozoic') === -1);
+      },
+      secondClick(){
+        this.$router.push('/paleozoic')
+      },
+      thirdClick(){
+        this.$router.push('/mesozoic')
+      },
+      fourthClick(){
+        this.$router.push('/cenozoic')
+      }
     }
   }
 </script>
