@@ -4,7 +4,7 @@
       <div class="plane"><img src="~assets/img/home/plane.png" alt=""></div>
       <div class="content">
         <div class="line">
-          <div class="first" @click="$router.push('/precambrian')"></div>
+          <div class="first" :class="{}" @click="$router.push('/precambrian')"></div>
           <div class="second" @click="$router.push('/paleozoic')"></div>
           <div class="third" @click="$router.push('/mesozoic')"></div>
           <div class="fourth" @click="$router.push('/cenozoic')"></div>
@@ -24,7 +24,10 @@
 
 <script>
   export default {
-    name: "Tabbar"
+    name: "Tabbar",
+    methods: {
+
+    }
   }
 </script>
 

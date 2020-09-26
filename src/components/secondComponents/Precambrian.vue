@@ -1,18 +1,20 @@
 <template>
   <div class="bg">
     <secondone></secondone>
-    <div class="content"></div>
+    <div class="content">
+      并未明了生物究竟起源于何时。在格陵兰西岸海外群岛曾发现一些古老石头，可能是早期的有机物。此外在澳大利亚西部有一些保存良好的细菌，已知最早的复杂多细胞生命型态。世界各地有许多5亿4200万年前到6亿年前之间的软体无壳动物化石，被称为埃迪卡拉动物群。至于硬壳动物则出现于前寒武纪结束之后。在前寒武纪的结尾，出现了许多不同型态的动物。这些动物群统称为小壳动物群，所知有限。
+    </div>
     <div class="box">
       <div><div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/nolivingthing')">
         <div class="t1">sad</div>
       </div></div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/archaeozoic')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/proterozoic')">
         <div class="t1">sad</div>
       </div>
     </div>
@@ -36,8 +38,13 @@
   .content{
     width: 80%;
     height: 40px;
-    background: #7DCDFF;
-    margin: 20px auto;
+    /*background: #7DCDFF;*/
+    color: var(--color-text);
+    margin: 40px auto 60px;
+    font-size: 20px;
+    text-indent: 20px;
+    line-height: 23px;
+    /*border: 1px solid var(--color-text);*/
   }
   .box{
     width: 80%;

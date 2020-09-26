@@ -4,27 +4,27 @@
     <div class="content"></div>
     <div class="box">
       <div><div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/cambrian')">
         <div class="t1">sad</div>
       </div></div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/ordovician')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/silurian')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/devonian')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/carboniferous')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/permian')">
         <div class="t1">sad</div>
       </div>
     </div>

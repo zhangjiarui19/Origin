@@ -4,15 +4,15 @@
     <div class="content"></div>
     <div class="box">
       <div><div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/triassic')">
         <div class="t1">sad</div>
       </div></div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/jurassic')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/cretaceous')">
         <div class="t1">sad</div>
       </div>
     </div>

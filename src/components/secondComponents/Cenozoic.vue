@@ -4,27 +4,27 @@
     <div class="content"></div>
     <div class="box">
       <div><div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/eocene')">
         <div class="t1">sad</div>
       </div></div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/oligocene')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/miocene')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/pliocene')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/Pleistocene')">
         <div class="t1">sad</div>
       </div>
       <div>
-        <img src="~assets/img/home/fish.jpg" alt="">
+        <img src="~assets/img/home/fish.jpg" alt="" @click="$router.push('/holocene')">
         <div class="t1">sad</div>
       </div>
     </div>
