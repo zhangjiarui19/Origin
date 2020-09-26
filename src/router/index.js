@@ -14,10 +14,6 @@ const routes = [
     component: Home
   },
   {
-    path: '/third',
-    component: () => import('views/Third')
-  },
-  {
     path: '/third1',
     component: () => import('components/thirdComponents/ThirdOne')
   },
@@ -39,75 +35,75 @@ const routes = [
   },
   {
     path: '/nolivingthing',
-    component: () => import('components/childComponents/NoLivingThing')
+    component: () => import('components/childComponents/one/NoLivingThing')
   },
   {
     path: '/archaeozoic',
-    component: () => import('components/childComponents/Archaeozoic')
+    component: () => import('components/childComponents/one/Archaeozoic')
   },
   {
     path: '/proterozoic',
-    component: () => import('components/childComponents/Proterozoic')
+    component: () => import('components/childComponents/one/Proterozoic')
   },
   {
     path: '/cambrian',
-    component: () => import('components/childComponents/Cambrian')
+    component: () => import('components/childComponents/two/Cambrian')
   },
   {
     path: '/ordovician',
-    component: () => import('components/childComponents/Ordovician')
+    component: () => import('components/childComponents/two/Ordovician')
   },
   {
     path: '/silurian',
-    component: () => import('components/childComponents/Silurian')
+    component: () => import('components/childComponents/two/Silurian')
   },
   {
     path: '/devonian',
-    component: () => import('components/childComponents/Devonian')
+    component: () => import('components/childComponents/two/Devonian')
   },
   {
     path: '/carboniferous',
-    component: () => import('components/childComponents/Carboniferous')
+    component: () => import('components/childComponents/two/Carboniferous')
   },
   {
     path: '/permian',
-    component: () => import('components/childComponents/Permian')
+    component: () => import('components/childComponents/two/Permian')
   },
   {
     path: '/triassic',
-    component: () => import('components/childComponents/Triassic')
+    component: () => import('components/childComponents/three/Triassic')
   },
   {
     path: '/jurassic',
-    component: () => import('components/childComponents/Jurassic')
+    component: () => import('components/childComponents/three/Jurassic')
   },
   {
     path: '/eocene',
-    component: () => import('components/childComponents/Eocene')
+    component: () => import('components/childComponents/four/Eocene')
   },
   {
     path: '/cretaceous',
-    component: () => import('components/childComponents/Cretaceous')
+    component: () => import('components/childComponents/three/Cretaceous')
   },
   {
     path: '/oligocene',
-    component: () => import('components/childComponents/Oligocene')
+    component: () => import('components/childComponents/four/Oligocene')
   },
   {
     path: '/miocene',
-    component: () => import('components/childComponents/Miocene')
+    component: () => import('components/childComponents/four/Miocene')
   },
   {
     path: '/pliocene',
-    component: () => import('components/childComponents/Pliocene')
+    component: () => import('components/childComponents/four/Pliocene')
   },
   {
     path: '/pleistocene',
-    component: () => import('components/childComponents/Pleistocene')
+    component: () => import('components/childComponents/four/Pleistocene')
   },
   {
     path: '/holocene',
-    component: () => import('components/childComponents/Holocene')
+    component: () => import('components/childComponents/four/Holocene')
   }
 ]
 

@@ -1,12 +1,15 @@
 <template>
   <div id="tmp">
-    <tabbar :count="1"></tabbar>
+    <tabbar :count="4"></tabbar>
     <div id="mainbody">
       <div class="left">
         <ul class="ulist">
-          <li :class="{active: counts===1}" @click="$router.push('/nolivingthing')">无生物时代</li>
-          <li :class="{active: counts===2}" @click="$router.push('/archaeozoic')">太古代</li>
-          <li :class="{active: counts===3}" @click="$router.push('/proterozoic')">元古代</li>
+          <li :class="{active: count===1}" @click="$router.push('/eocene')">始新世</li>
+          <li :class="{active: count===2}" @click="$router.push('/oligocene')">渐新世</li>
+          <li :class="{active: count===3}" @click="$router.push('/miocene')">中新世</li>
+          <li :class="{active: count===4}" @click="$router.push('/pliocene')">上新世</li>
+          <li :class="{active: count===5}" @click="$router.push('/pleistocene')">更新世</li>
+          <li :class="{active: count===6}" @click="$router.push('/holocene')">全新世</li>
         </ul>
       </div>
       <div class="right">
@@ -19,10 +22,10 @@
 <script>
   import Tabbar from "../Tabbar";
   export default {
-    name: "ThirdOne",
+    name: "ThirdFour",
     components: {Tabbar},
     props:{
-      counts:{
+      count:{
         type: Number,
         default: 0
       }
@@ -36,13 +39,14 @@
   }
   #mainbody{
     width: 80%;
-    height: 410px;
+    height: 650px;
     margin: 0 auto;
   }
   #mainbody .left{
     float: left;
     width: 26%;
     /*background-color: #7DCDFF;*/
+    /*color: white;*/
     height: 400px;
   }
   #mainbody .right{
@@ -65,7 +69,7 @@
   }
   .ulist li{
     margin-top: 30px;
-    height: 100px;
+    height: 70px;
     color: white;
   }
   .active{
@@ -73,4 +77,5 @@
     font-family: 方正小标宋简体;
     color: var(--color-text) !important;
   }
+
 </style>

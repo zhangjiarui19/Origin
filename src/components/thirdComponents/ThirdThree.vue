@@ -1,12 +1,12 @@
 <template>
   <div id="tmp">
-    <tabbar :count="1"></tabbar>
+    <tabbar :count="3"></tabbar>
     <div id="mainbody">
       <div class="left">
         <ul class="ulist">
-          <li :class="{active: counts===1}" @click="$router.push('/nolivingthing')">无生物时代</li>
-          <li :class="{active: counts===2}" @click="$router.push('/archaeozoic')">太古代</li>
-          <li :class="{active: counts===3}" @click="$router.push('/proterozoic')">元古代</li>
+          <li :class="{active: counts===1}" @click="$router.push('/triassic')">三叠纪</li>
+          <li :class="{active: counts===2}" @click="$router.push('/jurassic')">侏罗纪</li>
+          <li :class="{active: counts===3}" @click="$router.push('/cretaceous')">白垩纪</li>
         </ul>
       </div>
       <div class="right">
@@ -19,7 +19,7 @@
 <script>
   import Tabbar from "../Tabbar";
   export default {
-    name: "ThirdOne",
+    name: "ThirdThree",
     components: {Tabbar},
     props:{
       counts:{

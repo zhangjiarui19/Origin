@@ -1,12 +1,15 @@
 <template>
   <div id="tmp">
-    <tabbar :count="1"></tabbar>
+    <tabbar :count="2"></tabbar>
     <div id="mainbody">
       <div class="left">
         <ul class="ulist">
-          <li :class="{active: counts===1}" @click="$router.push('/nolivingthing')">无生物时代</li>
-          <li :class="{active: counts===2}" @click="$router.push('/archaeozoic')">太古代</li>
-          <li :class="{active: counts===3}" @click="$router.push('/proterozoic')">元古代</li>
+          <li :class="{active: count===1}" @click="$router.push('/cambrian')">寒武纪</li>
+          <li :class="{active: count===2}" @click="$router.push('/ordovician')">奥陶纪</li>
+          <li :class="{active: count===3}" @click="$router.push('/silurian')">志留纪</li>
+          <li :class="{active: count===4}" @click="$router.push('/devonian')">泥盆纪</li>
+          <li :class="{active: count===5}" @click="$router.push('/carboniferous')">石炭纪</li>
+          <li :class="{active: count===6}" @click="$router.push('/permian')">二叠纪</li>
         </ul>
       </div>
       <div class="right">
@@ -19,10 +22,10 @@
 <script>
   import Tabbar from "../Tabbar";
   export default {
-    name: "ThirdOne",
+    name: "ThirdTwo",
     components: {Tabbar},
     props:{
-      counts:{
+      count:{
         type: Number,
         default: 0
       }
@@ -36,7 +39,7 @@
   }
   #mainbody{
     width: 80%;
-    height: 410px;
+    height: 650px;
     margin: 0 auto;
   }
   #mainbody .left{
@@ -52,8 +55,10 @@
     height: 400px;
   }
   .right img{
-    width: 900px;
-    height: 370px;
+    margin-top: 29px;
+    margin-left: -100px;
+    width: 1100px;
+    height: 470px;
   }
   .left .ulist{
     list-style: none;
@@ -65,7 +70,7 @@
   }
   .ulist li{
     margin-top: 30px;
-    height: 100px;
+    height: 70px;
     color: white;
   }
   .active{
@@ -73,4 +78,5 @@
     font-family: 方正小标宋简体;
     color: var(--color-text) !important;
   }
+
 </style>

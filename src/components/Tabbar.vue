@@ -4,17 +4,17 @@
       <div class="plane"><img src="~assets/img/home/plane.png" alt=""></div>
       <div class="content">
         <div class="line">
-          <div class="first" :class="{}" @click="firstClick"></div>
+          <div class="first" @click="firstClick"></div>
           <div class="second" @click="secondClick"></div>
           <div class="third" @click="thirdClick"></div>
           <div class="fourth" @click="fourthClick"></div>
         </div>
         <div class="text">
           <ul>
-            <li @click="firstClick">前寒武纪</li>
-            <li @click="secondClick">古生代</li>
-            <li @click="thirdClick">中生代</li>
-            <li @click="fourthClick">新生代</li>
+            <li @click="firstClick" :class="{active: count===1}">前寒武纪</li>
+            <li @click="secondClick" :class="{active: count===2}">古生代</li>
+            <li @click="thirdClick" :class="{active: count===3}">中生代</li>
+            <li @click="fourthClick" :class="{active: count===4}">新生代</li>
           </ul>
         </div>
       </div>
@@ -40,6 +40,12 @@
       },
       fourthClick(){
         this.$router.push('/cenozoic')
+      }
+    },
+    props: {
+      count: {
+        type: Number,
+        default: 1
       }
     }
   }
@@ -97,7 +103,7 @@
     left: 83%
   }
   .text{
-    color: var(--color-text);
+    color: white;
     font-size: 30px;
     margin: 40px;
   }
@@ -119,5 +125,8 @@
   .text ul li:nth-child(3){
     /*width: 430px;*/
     width: 25%;
+  }
+  .active{
+    color: var(--color-text);
   }
 </style>

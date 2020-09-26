@@ -1,6 +1,6 @@
 <template>
   <div class="bg">
-    <secondone></secondone>
+    <secondone :count="3"></secondone>
     <div class="content">
       中生代（Mesozoic）是显生宙的三个地质时代之一，可分为三叠纪，侏罗纪和白垩纪三个地质年代。中生代最早是由意大利地质学家Giovanni Arduino所发表，当时名为第二纪（Secondary），以相对于现代的第三纪。在希腊文中，中生代意为“中间的”+“生物”。中生代介于古生代与新生代之间。由于这段时期的优势动物是爬虫类动物，尤其是恐龙，因此又称为爬行动物时代（Age of the Reptiles）。
     </div>

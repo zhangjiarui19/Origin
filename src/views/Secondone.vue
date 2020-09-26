@@ -1,6 +1,6 @@
 <template>
   <div>
-    <tabbar></tabbar>
+    <tabbar :count="count"></tabbar>
   </div>
 </template>
 
@@ -9,6 +9,12 @@
   export default {
     name: "Secondone",
     components: {Tabbar},
+    props: {
+      count: {
+        type: Number,
+        default: 1
+      }
+    }
   }
 </script>
 
