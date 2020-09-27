@@ -69,8 +69,11 @@
     margin: auto 270px;
   }
   #tb{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+    font-size: 20px;
+    text-indent: 10px;
+    line-height: 30px;
   }
   #tb img{
     width: 400px;

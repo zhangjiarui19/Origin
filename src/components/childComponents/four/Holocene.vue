@@ -10,28 +10,6 @@
         <li>时代的终结</li>
       </ul>
     </div>
-    <table id="tb">
-      <tr>
-        <td><img src="" alt=""></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><img src="" alt=""></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><img src="" alt=""></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><img src="" alt=""></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><img src="" alt=""></td>
-        <td></td>
-      </tr>
-    </table>
   </div>
 </template>
 
@@ -60,14 +38,5 @@
     line-height: 30px;
     /*text-align: center;*/
     margin: auto 270px;
-  }
-  #tb{
-    width: 80%;
-    margin: 0 auto;
-  }
-  #tb img{
-    width: 400px;
-    height: 270px;
-    margin: 20px;
   }
 </style>
