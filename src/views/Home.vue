@@ -111,8 +111,19 @@ export default {
 <style>
   .home{
     width: 100%;
+    position: relative;
+    height: 2300px;
+  }
+  .home::after{
+    content: "";
     background: url("~assets/img/home/backgroundimg.jpg");
-    height: 100%;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
   }
   .home div{
     width: 90%;

@@ -5,9 +5,9 @@
     </third-four>
     <div class="res">
       <ul class="reslist">
-        <li>生物</li>
-        <li>非生物</li>
-        <li>时代的终结</li>
+        <li @click="$router.push('/miocene')">生物</li>
+        <li @click="$router.push('/miocene1')">非生物</li>
+        <li @click="$router.push('/miocene2')">大事件</li>
       </ul>
     </div>
     <table id="tb">
@@ -52,7 +52,7 @@
     margin: 20px auto;
     width: 100%;
     height: 50px;
-    background-color: chartreuse;
+    background-color: #e0e0e0;
     position: sticky;
     top: 0px;
   }

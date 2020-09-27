@@ -1,18 +1,23 @@
 <template>
-  <div id="tmp">
-    <third-four :count="6">
-      <img src="~assets/img/photo/holocene.jpg" alt="">
+  <div>
+    <third-four :count="4">
+      <img src="~assets/img/photo/pliocene.jpg" alt="">
     </third-four>
-    <div id="content">
-      全新世（Holocene）是最年轻的地质年代，从11700年前开始。根据传统的地质学观点，全新世一直持续至今
+    <div class="res">
+      <ul class="reslist">
+        <li @click="$router.push('/pliocene')">生物</li>
+        <li @click="$router.push('/pliocene1')">非生物</li>
+        <li @click="$router.push('/pliocene2')">大事件</li>
+      </ul>
     </div>
+    <div id="content"></div>
   </div>
 </template>
 
 <script>
   import ThirdFour from "../../thirdComponents/ThirdFour";
   export default {
-    name: "Holocene",
+    name: "pliocene2",
     components: {ThirdFour}
   }
 </script>

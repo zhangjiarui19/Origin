@@ -14,10 +14,6 @@ const routes = [
     component: Home
   },
   {
-    path: '/third1',
-    component: () => import('components/thirdComponents/ThirdOne')
-  },
-  {
     path: '/precambrian',
     component: () => import('components/secondComponents/Precambrian')
   },
@@ -104,6 +100,118 @@ const routes = [
   {
     path: '/holocene',
     component: () => import('components/childComponents/four/Holocene')
+  },
+  {
+    path: '/cambrian-1',
+    component: () => import('components/childComponents/fuckingchild/cambrian1')
+  },
+  {
+    path: '/cambrian-2',
+    component: () => import('components/childComponents/fuckingchild/cambrian2')
+  },
+  {
+    path: '/ordovician1',
+    component: () => import('components/childComponents/fuckingchild/ordovician1')
+  },
+  {
+    path: '/ordovician2',
+    component: () => import('components/childComponents/fuckingchild/ordovician2')
+  },
+  {
+    path: '/silurian1',
+    component: () => import('components/childComponents/fuckingchild/silurian1')
+  },
+  {
+    path: '/silurian2',
+    component: () => import('components/childComponents/fuckingchild/silurian2')
+  },
+  {
+    path: '/devonian1',
+    component: () => import('components/childComponents/fuckingchild/devonian1')
+  },
+  {
+    path: '/devonian2',
+    component: () => import('components/childComponents/fuckingchild/devonian2')
+  },
+  {
+    path: '/carboniferous1',
+    component: () => import('components/childComponents/fuckingchild/carboniferous1')
+  },
+  {
+    path: '/carboniferous2',
+    component: () => import('components/childComponents/fuckingchild/carboniferous2')
+  },
+  {
+    path: '/permian1',
+    component: () => import('components/childComponents/fuckingchild/permian1')
+  },
+  {
+    path: '/permian2',
+    component: () => import('components/childComponents/fuckingchild/permian2')
+  },
+  {
+    path: '/triassic1',
+    component: () => import('components/childComponents/fuckingchild/triassic1')
+  },
+  {
+    path: '/triassic2',
+    component: () => import('components/childComponents/fuckingchild/triassic2')
+  },
+  {
+    path: '/jurassic1',
+    component: () => import('components/childComponents/fuckingchild/jurassic1')
+  },
+  {
+    path: '/jurassic2',
+    component: () => import('components/childComponents/fuckingchild/jurassic2')
+  },
+  {
+    path: '/cretaceous1',
+    component: () => import('components/childComponents/fuckingchild/cretaceous1')
+  },
+  {
+    path: '/cretaceous2',
+    component: () => import('components/childComponents/fuckingchild/cretaceous2')
+  },
+  {
+    path: '/eocene1',
+    component: () => import('components/childComponents/fuckingchild/eocene1')
+  },
+  {
+    path: '/eocene2',
+    component: () => import('components/childComponents/fuckingchild/eocene2')
+  },
+  {
+    path: '/oligocene1',
+    component: () => import('components/childComponents/fuckingchild/oligocene1')
+  },
+  {
+    path: '/oligocene2',
+    component: () => import('components/childComponents/fuckingchild/oligocene2')
+  },
+  {
+    path: '/miocene1',
+    component: () => import('components/childComponents/fuckingchild/miocene1')
+  },
+  {
+    path: '/miocene2',
+    component: () => import('components/childComponents/fuckingchild/miocene2')
+  },
+  {
+    path: '/pliocene1',
+    component: () => import('components/childComponents/fuckingchild/pliocene1')
+  },
+  {
+    path: '/pliocene2',
+    component: () => import('components/childComponents/fuckingchild/pliocene2')
+  },
+  {
+    path: '/pleistocene1',
+    component: () => import('components/childComponents/fuckingchild/pleistocene1')
+  },
+  {
+    path: '/pleistocene2',
+    component: () => import('components/childComponents/fuckingchild/pleistocene2')
   }
 ]
 

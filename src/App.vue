@@ -3,7 +3,6 @@
     <router-view/>
   </div>
 </template>
-
 <style>
   @import url('assets/base.css');
 </style>
