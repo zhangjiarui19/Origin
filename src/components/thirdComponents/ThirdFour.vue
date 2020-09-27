@@ -56,8 +56,10 @@
     height: 400px;
   }
   .right img{
-    width: 900px;
-    height: 370px;
+    margin-top: 29px;
+    margin-left: -100px;
+    width: 1100px;
+    height: 470px;
   }
   .left .ulist{
     list-style: none;

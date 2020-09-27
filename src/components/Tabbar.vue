@@ -1,7 +1,7 @@
 <template>
   <div id="tabbar">
     <div class="main">
-      <div class="plane"><img src="~assets/img/home/plane.png" alt=""></div>
+      <div class="plane" @click="$router.replace('/')"><img src="~assets/img/home/plane.png" alt=""></div>
       <div class="content">
         <div class="line">
           <div class="first" @click="firstClick"></div>
