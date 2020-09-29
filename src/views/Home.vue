@@ -6,7 +6,7 @@
     </div>
     <div class="mainbody">
 <!--      <div class="plane">-->
-<!--        <img src="~assets/img/home/plane.png" alt="">-->
+<!--        <img src="~assets/img/home/plane.png"  alt="">-->
 <!--      </div>-->
       <div class="tabbar">
         <div class="left">
@@ -65,7 +65,7 @@
         </div>
         <div class="right">
           <ul>
-            <li><img src="~assets/img/home/sunrise.jpg" alt=""></li>
+            <li><img src="~assets/img/home/sunrise.jpg" id="only" alt=""></li>
       <li></li>
       <li></li>
       <li></li>
@@ -214,6 +214,10 @@ export default {
   }
   .mainbody img{
     height: 250px;
+    width: 400px;
+  }
+  #only{
+    height: 200px;
     width: 400px;
   }
 
